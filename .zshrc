@@ -1,5 +1,3 @@
-#  --config /home/nicklatcham/.cache/oh-my-posh/themes/robbyrussell.omp.json
-
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
 
 if [ ! -d "$ZINIT_HOME" ]; then
