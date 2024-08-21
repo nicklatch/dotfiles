@@ -1,0 +1,12 @@
+live_config_reload = true
+
+[window]
+padding = {x = 0, y = 0}
+dynamic_padding = true
+opacity = 0.9
+
+[font]
+size = 13
+
+[font.normal]
+family = "JetBrainsMono Nerd Font"
