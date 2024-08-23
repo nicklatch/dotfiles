@@ -26,6 +26,8 @@ autoload -U compinit && compinit
 
 zinit cdreplay -q
 
+bindkey -e
+
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/catppuccin-macchiato.json)"
 
 export NVM_DIR="$HOME/.config/nvm"
