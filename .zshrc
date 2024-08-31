@@ -27,6 +27,8 @@ autoload -U compinit && compinit
 zinit cdreplay -q
 
 bindkey -e
+bindkey "^[[1;5C" forward-word
+bindkey "^[[1;5D" backward-word
 
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/catppuccin-macchiato.json)"
 
@@ -82,3 +84,6 @@ export SDKMAN_DIR="$HOME/.sdkman"
 
 # Load Angular CLI autocompletion.
 source <(ng completion script)
+
+# JMETER 
+export PATH="$PATH:/home/nicklatcham/.local/apache-jmeter-5.6.3/bin"
