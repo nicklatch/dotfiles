@@ -76,12 +76,11 @@ zstyle ':fzf-tab:complete:systemctl-*:*' fzf-preview 'SYSTEMD_COLORS=1 systemctl
 
 # Aliases and such
 alias ls="eza -alh --icons=always --color=always --git"
-alias ce="chezmoi edit --apply"
-alias zshrc='ce ~/.zshrc'
-alias nvimrc='cd ~/.local/share/chezmoi/private_dot_config/nvim && nvim .'
-alias gitrc='cd ~/.local/share/chezmoi/private_dot_config/git && nvim .'
-alias ocrc='cd ~/.local/share/chezmoi/private_dot_config/opencode && nvim .'
-alias tmuxrc='ce ~/.tmux.conf'
+alias zshrc='cd ~/dotfiles/zsh/.zshrc && nvim .zshrc'
+alias nvimrc='cd ~/.config/nvim && nvim .'
+alias gitrc='cd ~/dotfiles/.config/git && nvim .'
+alias ocrc='cd ~/dotfiles/.config/opencode && nvim .'
+alias tmuxrc='cd ~/dotfiles/tmux/.tmux.conf'
 
 # Set batcat alias if bat is batcat (im looking at you ubuntu)
 command -v batcat &>/dev/null && alias bat='batcat'
