@@ -1,0 +1,117 @@
+exit
+cd Repos/
+ls
+cd tempest-todo/
+git status
+git init
+clear
+git status
+git add --all
+git commit -m 'inital commit'
+clear
+just
+clear
+docker ps\
+docker ps
+docker ps --help
+docker ps --format json
+docker ps --format json | from json
+docker ps --format json |lines |from json
+docker ps --format json |lines |tojson |from json
+docker ps --format json |lines |to json |from json
+docker ps --format table
+clear
+lazydocker
+exit
+cat log/caddy.log | from json
+log/caddy.log | from json
+cat
+cat log/caddy.log
+cat log/caddy.log | to json | from json
+cat log/caddy.log | from json
+exit
+cd us
+$nu.env-path
+$nu.env-path | wl-copy 
+cd /home/nicklatcham/.config/nushell
+nvim
+exit
+cd us
+z us
+clear
+ls
+cd
+clea
+clear
+eza 
+eza -alh
+ls
+ls -al
+clear
+ls
+eix
+exit
+config nu
+man ls
+config nu
+man ls | nu-highlight | less -R
+config nu
+exit
+clear
+exit
+clear
+help
+clear
+help
+help commands
+math sum 1 1
+math sum 1, 1
+math sum help
+help math sum
+math sum [1 2]
+[1 2] |math sum
+clear
+help commands
+tutor
+tutor begin
+ls | select tmux
+ls | select %tmux%
+ls | select .zshrc
+ls
+ls select mago
+ls|  select mago
+clear
+nproc 
+bun
+clear
+nvim
+cd us
+z us
+clear
+tmux
+clear
+exit
+sudo apt install tealdeer
+tldr
+clear
+tldr nvim
+tldr neovim
+tldr --update
+tldr neovim
+tldr nvim
+clear
+cd reps
+cd repos
+cd Repos/usaclaytarget_taps/
+open README.md
+nvim
+plugin list 
+rg
+clear
+tldr rg
+cd opencode
+exit
+{<\n>  "object": "list",<\n>  "data": [<\n>    {<\n>      "id": "internal-opus",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-opus-4-5",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-opus-4-1",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-sonnet-4",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-sonnet-4-5",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-3-5-haiku",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-haiku-4-5",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gemini-3-pro",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gemini-3-flash",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.2",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.2-codex",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.1",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.1-codex-max",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.1-codex",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5-codex",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.1-codex-mini",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5-nano",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "qwen3-coder",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "glm-4.6",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "glm-4.7",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "kimi-k2",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "kimi-k2-thinking",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "grok-code",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "alpha-glm-4.7",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "alpha-gd4",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "big-pickle",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    }<\n>  ]<\n>} | table
+{<\n>   "data": [<\n>    {<\n>      "id": "internal-opus",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-opus-4-5",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-opus-4-1",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-sonnet-4",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-sonnet-4-5",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-3-5-haiku",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-haiku-4-5",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gemini-3-pro",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gemini-3-flash",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.2",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.2-codex",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.1",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.1-codex-max",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.1-codex",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5-codex",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.1-codex-mini",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5-nano",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "qwen3-coder",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "glm-4.6",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "glm-4.7",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "kimi-k2",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "kimi-k2-thinking",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "grok-code",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "alpha-glm-4.7",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "alpha-gd4",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "big-pickle",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    }<\n>  ]<\n>} | table
+{<\n>  "object": "list",<\n>  "data": [<\n>    {<\n>      "id": "internal-opus",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-opus-4-5",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-opus-4-1",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-sonnet-4",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-sonnet-4-5",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-3-5-haiku",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "claude-haiku-4-5",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gemini-3-pro",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gemini-3-flash",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.2",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.2-codex",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.1",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.1-codex-max",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.1-codex",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5-codex",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5.1-codex-mini",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "gpt-5-nano",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "qwen3-coder",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "glm-4.6",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "glm-4.7",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "kimi-k2",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "kimi-k2-thinking",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "grok-code",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "alpha-glm-4.7",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "alpha-gd4",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    },<\n>    {<\n>      "id": "big-pickle",<\n>      "object": "model",<\n>      "created": 1769195924,<\n>      "owned_by": "opencode"<\n>    }<\n>  ]<\n>} | table
+exit

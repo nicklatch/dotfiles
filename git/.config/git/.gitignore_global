@@ -1,0 +1,12 @@
+.idea
+.vscode
+.iml
+.beads
+
+AGENTS.md
+Dockerfile
+docker-compose.yml
+usactl.conf
+xdebug.ini
+dev_env.sh
+justfile

@@ -1,0 +1,10 @@
+theme = "Carbonfox"
+font-family = "JetbrainsMono Nerd Font"
+font-size = 13
+window-padding-x = 0
+window-padding-y = 0
+window-padding-balance = true
+mouse-scroll-multiplier = 1
+window-padding-color = "extend-always"
+window-decoration = auto
+# vim: ft=ghostty

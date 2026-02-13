@@ -1,0 +1,34 @@
+[user]
+	name = Nick Latcham
+	email = nlatcham@usaclaytarget.com
+
+[core]
+	editor = nvim
+	pager = delta
+
+[column]
+	ui = auto
+
+[color]
+	ui = auto
+
+[pull]
+	rebase = true
+
+[rebase]
+	updateRefs = true
+
+[interactive]
+        diffFilter = delta --color-only
+
+[merge]
+        conflictStyle = zdiff3
+
+[rerere]
+	enabled = true
+
+[delta]
+	navigate = true
+	dark = true
+
+# vim: ft=gitconfig
